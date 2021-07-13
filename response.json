@@ -1,0 +1,1810 @@
+{
+  "driver_trips": [
+    {
+      "driver": {
+        "time_spend_on_drop": 75,
+        "duty_completed_time": 425,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": -40
+      },
+      "vehicle": {
+        "distance_covered": 20,
+        "max_capacity_used": 3433.8600000000006
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006337",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006338",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006334",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006336",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006339",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006340",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006341",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006342",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006373",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006374",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006333",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006375",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006350",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006347",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006348",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006337",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006338",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006375",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006334",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006336",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006339",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006340",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006341",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006342",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006373",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006374",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006333",
+          "operation": "deliver",
+          "estimated_time": 405
+        },
+        {
+          "order_id": "DO00006350",
+          "operation": "deliver",
+          "estimated_time": 410
+        },
+        {
+          "order_id": "DO00006348",
+          "operation": "deliver",
+          "estimated_time": 418
+        },
+        {
+          "order_id": "DO00006347",
+          "operation": "deliver",
+          "estimated_time": 418
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 115,
+        "duty_completed_time": 513,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 8
+      },
+      "vehicle": {
+        "distance_covered": 75,
+        "max_capacity_used": 3421.07
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006405",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006318",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006396",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006315",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006316",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006317",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006319",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006303",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006304",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006302",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006305",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006314",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006354",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006355",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006280",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006281",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006277",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006278",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006276",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006279",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006376",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006403",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006377",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006376",
+          "operation": "deliver",
+          "estimated_time": 422
+        },
+        {
+          "order_id": "DO00006377",
+          "operation": "deliver",
+          "estimated_time": 422
+        },
+        {
+          "order_id": "DO00006403",
+          "operation": "deliver",
+          "estimated_time": 434
+        },
+        {
+          "order_id": "DO00006279",
+          "operation": "deliver",
+          "estimated_time": 453
+        },
+        {
+          "order_id": "DO00006276",
+          "operation": "deliver",
+          "estimated_time": 453
+        },
+        {
+          "order_id": "DO00006278",
+          "operation": "deliver",
+          "estimated_time": 453
+        },
+        {
+          "order_id": "DO00006280",
+          "operation": "deliver",
+          "estimated_time": 453
+        },
+        {
+          "order_id": "DO00006281",
+          "operation": "deliver",
+          "estimated_time": 453
+        },
+        {
+          "order_id": "DO00006277",
+          "operation": "deliver",
+          "estimated_time": 453
+        },
+        {
+          "order_id": "DO00006354",
+          "operation": "deliver",
+          "estimated_time": 460
+        },
+        {
+          "order_id": "DO00006355",
+          "operation": "deliver",
+          "estimated_time": 460
+        },
+        {
+          "order_id": "DO00006396",
+          "operation": "deliver",
+          "estimated_time": 468
+        },
+        {
+          "order_id": "DO00006318",
+          "operation": "deliver",
+          "estimated_time": 476
+        },
+        {
+          "order_id": "DO00006315",
+          "operation": "deliver",
+          "estimated_time": 476
+        },
+        {
+          "order_id": "DO00006316",
+          "operation": "deliver",
+          "estimated_time": 476
+        },
+        {
+          "order_id": "DO00006317",
+          "operation": "deliver",
+          "estimated_time": 476
+        },
+        {
+          "order_id": "DO00006319",
+          "operation": "deliver",
+          "estimated_time": 476
+        },
+        {
+          "order_id": "DO00006305",
+          "operation": "deliver",
+          "estimated_time": 484
+        },
+        {
+          "order_id": "DO00006303",
+          "operation": "deliver",
+          "estimated_time": 484
+        },
+        {
+          "order_id": "DO00006304",
+          "operation": "deliver",
+          "estimated_time": 484
+        },
+        {
+          "order_id": "DO00006302",
+          "operation": "deliver",
+          "estimated_time": 484
+        },
+        {
+          "order_id": "DO00006314",
+          "operation": "deliver",
+          "estimated_time": 489.99999999999994
+        },
+        {
+          "order_id": "DO00006405",
+          "operation": "deliver",
+          "estimated_time": 500.00000000000006
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 35,
+        "duty_completed_time": 466,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 41
+      },
+      "vehicle": {
+        "distance_covered": 46,
+        "max_capacity_used": 3293.0299999999997
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006364",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006362",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006363",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006365",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006369",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006368",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006372",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006372",
+          "operation": "deliver",
+          "estimated_time": 416
+        },
+        {
+          "order_id": "DO00006368",
+          "operation": "deliver",
+          "estimated_time": 421
+        },
+        {
+          "order_id": "DO00006362",
+          "operation": "deliver",
+          "estimated_time": 426
+        },
+        {
+          "order_id": "DO00006363",
+          "operation": "deliver",
+          "estimated_time": 426
+        },
+        {
+          "order_id": "DO00006364",
+          "operation": "deliver",
+          "estimated_time": 432
+        },
+        {
+          "order_id": "DO00006365",
+          "operation": "deliver",
+          "estimated_time": 440
+        },
+        {
+          "order_id": "DO00006369",
+          "operation": "deliver",
+          "estimated_time": 445
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 15,
+        "duty_completed_time": 468,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 63
+      },
+      "vehicle": {
+        "distance_covered": 64,
+        "max_capacity_used": 2573.4
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006357",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006397",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006398",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006397",
+          "operation": "deliver",
+          "estimated_time": 430
+        },
+        {
+          "order_id": "DO00006398",
+          "operation": "deliver",
+          "estimated_time": 430
+        },
+        {
+          "order_id": "DO00006357",
+          "operation": "deliver",
+          "estimated_time": 464
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 165,
+        "duty_completed_time": 533,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": -22
+      },
+      "vehicle": {
+        "distance_covered": 99,
+        "max_capacity_used": 3451.5800000000004
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006257",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006344",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006289",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006329",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006288",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006250",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006324",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006330",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006290",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006291",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006343",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006345",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006326",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006325",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006327",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006328",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006266",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006258",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006259",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006260",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006292",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006300",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006301",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006331",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006346",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006295",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006297",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006298",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006252",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006254",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006274",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006275",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006251",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006324",
+          "operation": "deliver",
+          "estimated_time": 419
+        },
+        {
+          "order_id": "DO00006330",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006300",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006301",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006331",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006346",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006295",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006297",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006298",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006252",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006254",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006274",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006275",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006251",
+          "operation": "deliver",
+          "estimated_time": 431
+        },
+        {
+          "order_id": "DO00006292",
+          "operation": "deliver",
+          "estimated_time": 439
+        },
+        {
+          "order_id": "DO00006266",
+          "operation": "deliver",
+          "estimated_time": 449
+        },
+        {
+          "order_id": "DO00006289",
+          "operation": "deliver",
+          "estimated_time": 468
+        },
+        {
+          "order_id": "DO00006288",
+          "operation": "deliver",
+          "estimated_time": 468
+        },
+        {
+          "order_id": "DO00006290",
+          "operation": "deliver",
+          "estimated_time": 468
+        },
+        {
+          "order_id": "DO00006291",
+          "operation": "deliver",
+          "estimated_time": 468
+        },
+        {
+          "order_id": "DO00006344",
+          "operation": "deliver",
+          "estimated_time": 487
+        },
+        {
+          "order_id": "DO00006343",
+          "operation": "deliver",
+          "estimated_time": 487
+        },
+        {
+          "order_id": "DO00006345",
+          "operation": "deliver",
+          "estimated_time": 487
+        },
+        {
+          "order_id": "DO00006329",
+          "operation": "deliver",
+          "estimated_time": 491.99999999999994
+        },
+        {
+          "order_id": "DO00006250",
+          "operation": "deliver",
+          "estimated_time": 491.99999999999994
+        },
+        {
+          "order_id": "DO00006326",
+          "operation": "deliver",
+          "estimated_time": 491.99999999999994
+        },
+        {
+          "order_id": "DO00006325",
+          "operation": "deliver",
+          "estimated_time": 491.99999999999994
+        },
+        {
+          "order_id": "DO00006327",
+          "operation": "deliver",
+          "estimated_time": 491.99999999999994
+        },
+        {
+          "order_id": "DO00006328",
+          "operation": "deliver",
+          "estimated_time": 491.99999999999994
+        },
+        {
+          "order_id": "DO00006257",
+          "operation": "deliver",
+          "estimated_time": 501
+        },
+        {
+          "order_id": "DO00006258",
+          "operation": "deliver",
+          "estimated_time": 501
+        },
+        {
+          "order_id": "DO00006259",
+          "operation": "deliver",
+          "estimated_time": 501
+        },
+        {
+          "order_id": "DO00006260",
+          "operation": "deliver",
+          "estimated_time": 501
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 185,
+        "duty_completed_time": 641,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 66
+      },
+      "vehicle": {
+        "distance_covered": 175,
+        "max_capacity_used": 3441.6299999999997
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006388",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006323",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006284",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006380",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006400",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006385",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006386",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006387",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006379",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006381",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006395",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006332",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006282",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006283",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006285",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006351",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006249",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006311",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006269",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006273",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006296",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006256",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006307",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006308",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006309",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006306",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006310",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006358",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006294",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006320",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006321",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006322",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006312",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006313",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006253",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006299",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006255",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006311",
+          "operation": "deliver",
+          "estimated_time": 415
+        },
+        {
+          "order_id": "DO00006312",
+          "operation": "deliver",
+          "estimated_time": 415
+        },
+        {
+          "order_id": "DO00006313",
+          "operation": "deliver",
+          "estimated_time": 415
+        },
+        {
+          "order_id": "DO00006320",
+          "operation": "deliver",
+          "estimated_time": 421
+        },
+        {
+          "order_id": "DO00006321",
+          "operation": "deliver",
+          "estimated_time": 421
+        },
+        {
+          "order_id": "DO00006322",
+          "operation": "deliver",
+          "estimated_time": 421
+        },
+        {
+          "order_id": "DO00006358",
+          "operation": "deliver",
+          "estimated_time": 428
+        },
+        {
+          "order_id": "DO00006294",
+          "operation": "deliver",
+          "estimated_time": 428
+        },
+        {
+          "order_id": "DO00006307",
+          "operation": "deliver",
+          "estimated_time": 434
+        },
+        {
+          "order_id": "DO00006308",
+          "operation": "deliver",
+          "estimated_time": 434
+        },
+        {
+          "order_id": "DO00006309",
+          "operation": "deliver",
+          "estimated_time": 434
+        },
+        {
+          "order_id": "DO00006306",
+          "operation": "deliver",
+          "estimated_time": 434
+        },
+        {
+          "order_id": "DO00006310",
+          "operation": "deliver",
+          "estimated_time": 434
+        },
+        {
+          "order_id": "DO00006269",
+          "operation": "deliver",
+          "estimated_time": 448
+        },
+        {
+          "order_id": "DO00006253",
+          "operation": "deliver",
+          "estimated_time": 448
+        },
+        {
+          "order_id": "DO00006299",
+          "operation": "deliver",
+          "estimated_time": 448
+        },
+        {
+          "order_id": "DO00006255",
+          "operation": "deliver",
+          "estimated_time": 448
+        },
+        {
+          "order_id": "DO00006273",
+          "operation": "deliver",
+          "estimated_time": 448
+        },
+        {
+          "order_id": "DO00006296",
+          "operation": "deliver",
+          "estimated_time": 448
+        },
+        {
+          "order_id": "DO00006256",
+          "operation": "deliver",
+          "estimated_time": 448
+        },
+        {
+          "order_id": "DO00006323",
+          "operation": "deliver",
+          "estimated_time": 459
+        },
+        {
+          "order_id": "DO00006380",
+          "operation": "deliver",
+          "estimated_time": 478
+        },
+        {
+          "order_id": "DO00006379",
+          "operation": "deliver",
+          "estimated_time": 478
+        },
+        {
+          "order_id": "DO00006381",
+          "operation": "deliver",
+          "estimated_time": 478
+        },
+        {
+          "order_id": "DO00006388",
+          "operation": "deliver",
+          "estimated_time": 498.00000000000006
+        },
+        {
+          "order_id": "DO00006385",
+          "operation": "deliver",
+          "estimated_time": 498.00000000000006
+        },
+        {
+          "order_id": "DO00006386",
+          "operation": "deliver",
+          "estimated_time": 498.00000000000006
+        },
+        {
+          "order_id": "DO00006387",
+          "operation": "deliver",
+          "estimated_time": 498.00000000000006
+        },
+        {
+          "order_id": "DO00006395",
+          "operation": "deliver",
+          "estimated_time": 513
+        },
+        {
+          "order_id": "DO00006332",
+          "operation": "deliver",
+          "estimated_time": 520
+        },
+        {
+          "order_id": "DO00006284",
+          "operation": "deliver",
+          "estimated_time": 531
+        },
+        {
+          "order_id": "DO00006285",
+          "operation": "deliver",
+          "estimated_time": 531
+        },
+        {
+          "order_id": "DO00006282",
+          "operation": "deliver",
+          "estimated_time": 531
+        },
+        {
+          "order_id": "DO00006283",
+          "operation": "deliver",
+          "estimated_time": 531
+        },
+        {
+          "order_id": "DO00006351",
+          "operation": "deliver",
+          "estimated_time": 552
+        },
+        {
+          "order_id": "DO00006249",
+          "operation": "deliver",
+          "estimated_time": 587
+        },
+        {
+          "order_id": "DO00006400",
+          "operation": "deliver",
+          "estimated_time": 606
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 15,
+        "duty_completed_time": 489.99999999999994,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 85
+      },
+      "vehicle": {
+        "distance_covered": 80,
+        "max_capacity_used": 3405.6399999999994
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006335",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006402",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006356",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006356",
+          "operation": "deliver",
+          "estimated_time": 419
+        },
+        {
+          "order_id": "DO00006402",
+          "operation": "deliver",
+          "estimated_time": 451
+        },
+        {
+          "order_id": "DO00006335",
+          "operation": "deliver",
+          "estimated_time": 480
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 125,
+        "duty_completed_time": 624,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 109
+      },
+      "vehicle": {
+        "distance_covered": 148,
+        "max_capacity_used": 3434.5200000000004
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006349",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006263",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006404",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006264",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006262",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006261",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006268",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006267",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006265",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006272",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006271",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006406",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006367",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006366",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006270",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006360",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006361",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006352",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006353",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006371",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006393",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006391",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006392",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006384",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006394",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006371",
+          "operation": "deliver",
+          "estimated_time": 416
+        },
+        {
+          "order_id": "DO00006270",
+          "operation": "deliver",
+          "estimated_time": 428
+        },
+        {
+          "order_id": "DO00006391",
+          "operation": "deliver",
+          "estimated_time": 468
+        },
+        {
+          "order_id": "DO00006392",
+          "operation": "deliver",
+          "estimated_time": 468
+        },
+        {
+          "order_id": "DO00006384",
+          "operation": "deliver",
+          "estimated_time": 475
+        },
+        {
+          "order_id": "DO00006393",
+          "operation": "deliver",
+          "estimated_time": 493
+        },
+        {
+          "order_id": "DO00006394",
+          "operation": "deliver",
+          "estimated_time": 493
+        },
+        {
+          "order_id": "DO00006404",
+          "operation": "deliver",
+          "estimated_time": 526
+        },
+        {
+          "order_id": "DO00006263",
+          "operation": "deliver",
+          "estimated_time": 533
+        },
+        {
+          "order_id": "DO00006264",
+          "operation": "deliver",
+          "estimated_time": 533
+        },
+        {
+          "order_id": "DO00006262",
+          "operation": "deliver",
+          "estimated_time": 533
+        },
+        {
+          "order_id": "DO00006261",
+          "operation": "deliver",
+          "estimated_time": 540
+        },
+        {
+          "order_id": "DO00006268",
+          "operation": "deliver",
+          "estimated_time": 546
+        },
+        {
+          "order_id": "DO00006267",
+          "operation": "deliver",
+          "estimated_time": 546
+        },
+        {
+          "order_id": "DO00006265",
+          "operation": "deliver",
+          "estimated_time": 555
+        },
+        {
+          "order_id": "DO00006360",
+          "operation": "deliver",
+          "estimated_time": 563
+        },
+        {
+          "order_id": "DO00006361",
+          "operation": "deliver",
+          "estimated_time": 563
+        },
+        {
+          "order_id": "DO00006271",
+          "operation": "deliver",
+          "estimated_time": 569
+        },
+        {
+          "order_id": "DO00006272",
+          "operation": "deliver",
+          "estimated_time": 569
+        },
+        {
+          "order_id": "DO00006406",
+          "operation": "deliver",
+          "estimated_time": 578
+        },
+        {
+          "order_id": "DO00006353",
+          "operation": "deliver",
+          "estimated_time": 585
+        },
+        {
+          "order_id": "DO00006352",
+          "operation": "deliver",
+          "estimated_time": 585
+        },
+        {
+          "order_id": "DO00006367",
+          "operation": "deliver",
+          "estimated_time": 593
+        },
+        {
+          "order_id": "DO00006366",
+          "operation": "deliver",
+          "estimated_time": 593
+        },
+        {
+          "order_id": "DO00006349",
+          "operation": "deliver",
+          "estimated_time": 614
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 55,
+        "duty_completed_time": 697,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 252
+      },
+      "vehicle": {
+        "distance_covered": 243,
+        "max_capacity_used": 3443.81
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006359",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006293",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006370",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006287",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006390",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006286",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006383",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006399",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006389",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006382",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006378",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006370",
+          "operation": "deliver",
+          "estimated_time": 416
+        },
+        {
+          "order_id": "DO00006293",
+          "operation": "deliver",
+          "estimated_time": 428
+        },
+        {
+          "order_id": "DO00006286",
+          "operation": "deliver",
+          "estimated_time": 445
+        },
+        {
+          "order_id": "DO00006287",
+          "operation": "deliver",
+          "estimated_time": 445
+        },
+        {
+          "order_id": "DO00006378",
+          "operation": "deliver",
+          "estimated_time": 500.00000000000006
+        },
+        {
+          "order_id": "DO00006382",
+          "operation": "deliver",
+          "estimated_time": 515
+        },
+        {
+          "order_id": "DO00006383",
+          "operation": "deliver",
+          "estimated_time": 515
+        },
+        {
+          "order_id": "DO00006389",
+          "operation": "deliver",
+          "estimated_time": 551
+        },
+        {
+          "order_id": "DO00006390",
+          "operation": "deliver",
+          "estimated_time": 583
+        },
+        {
+          "order_id": "DO00006359",
+          "operation": "deliver",
+          "estimated_time": 636
+        },
+        {
+          "order_id": "DO00006399",
+          "operation": "deliver",
+          "estimated_time": 662
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 5,
+        "duty_completed_time": 465,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 70
+      },
+      "vehicle": {
+        "distance_covered": 65,
+        "max_capacity_used": 2928
+      },
+      "trip_detail": [
+        {
+          "order_id": "DO00006401",
+          "operation": "pickup",
+          "estimated_time": 390
+        },
+        {
+          "order_id": "DO00006401",
+          "operation": "deliver",
+          "estimated_time": 430
+        }
+      ]
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 0,
+        "duty_completed_time": 390,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 0
+      },
+      "vehicle": {
+        "distance_covered": 0,
+        "max_capacity_used": 0
+      },
+      "trip_detail": []
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 0,
+        "duty_completed_time": 390,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 0
+      },
+      "vehicle": {
+        "distance_covered": 0,
+        "max_capacity_used": 0
+      },
+      "trip_detail": []
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 0,
+        "duty_completed_time": 390,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 0
+      },
+      "vehicle": {
+        "distance_covered": 0,
+        "max_capacity_used": 0
+      },
+      "trip_detail": []
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 0,
+        "duty_completed_time": 390,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 0
+      },
+      "vehicle": {
+        "distance_covered": 0,
+        "max_capacity_used": 0
+      },
+      "trip_detail": []
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 0,
+        "duty_completed_time": 390,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 0
+      },
+      "vehicle": {
+        "distance_covered": 0,
+        "max_capacity_used": 0
+      },
+      "trip_detail": []
+    },
+    {
+      "driver": {
+        "time_spend_on_drop": 0,
+        "duty_completed_time": 390,
+        "time_spend_on_pickup": 0,
+        "time_spend_on_driving": 0
+      },
+      "vehicle": {
+        "distance_covered": 0,
+        "max_capacity_used": 0
+      },
+      "trip_detail": []
+    }
+  ],
+  "excluded_orders": [],
+  "tried_orderings": 3000,
+  "optimized_status": true,
+  "no_driver_utilized": 10,
+  "optimized_distance": 1015,
+  "time_taken_to_solve": 279,
+  "all_possible_orderings": "Number of atoms in Milky way galaxy",
+  "dropped_orders_by_solver": []
+}

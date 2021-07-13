@@ -33,18 +33,17 @@ class Coors:
 class Vehicle:
   def __init__(self, total_capacity, max_utilized_capacity_of_vehicle):
     self.total_capacity = total_capacity
-    self.max_utilized_capacity_of_vehicle = max_utilized_capacity_of_vehicle
-      
+    self.max_utilized_capacity_of_vehicle = max_utilized_capacity_of_vehicle  
     self.capacity = total_capacity*max_utilized_capacity_of_vehicle 
   
 
 class Node:
-  def __init__(self, coors, demand = None, timingWindow=None):
+  def __init__(self, coors, demand = None, timingWindow=None, processingTime = 5):
     self.coors = coors
     self.id = id(self)
     self.demand = demand
     self.timingWindow = timingWindow
-
+    self.processingTime = processingTime
 
 class Network:
   def __init__(self, depotNode = 0, numVehicles=1, nodes = None, vehicles = None, pickups_deliveries = None):
@@ -53,7 +52,7 @@ class Network:
     self.numVehicles = numVehicles
     self.vehicles = vehicles
     self.pickups_deliveries = pickups_deliveries
-
+    self.avgSpeed = 60
 
   def addNodeToNetwork(self, node):
     self.nodes.append(node)
@@ -84,16 +83,13 @@ class DataModel:
    
 
   def calculateDistanceMatrix(self):
-    print("Bhatera")
-    print(self.network.nodes)
-    for node in self.network.nodes:
-
-      print(node.coors.latitude, node.coors.longitude)
-
-
     nodeCoorList =[[np.radians(node.coors.latitude), np.radians(node.coors.longitude)] for node in self.network.nodes]
     metric = DistanceMetric.get_metric("haversine")
     self.data["distance_matrix"] =  metric.pairwise(nodeCoorList)*6373
+
+  def tuneDistanceMatrix(self):
+    for node in self.network.nodes:
+      self.data["distance_matrix"] += (node.processingTime*self.network.avgSpeed)/60
 
   def setTimingWindows(self):
     windows =[node.timingWindow for node in  self.network.nodes]
@@ -120,6 +116,7 @@ class DataModel:
     self.setDemands()
     #self.assignNames()
     self.calculateDistanceMatrix()
+    self.tuneDistanceMatrix()
     #self.setPickupsAndDeliveries()
     #self.calculateTimeMatrix()
     #self.setTimingWindows()

@@ -84,8 +84,10 @@ class DataModel:
 
   def calculateDistanceMatrix(self):
     nodeCoorList =[[np.radians(node.coors.latitude), np.radians(node.coors.longitude)] for node in self.network.nodes]
+    print(nodeCoorList)
     metric = DistanceMetric.get_metric("haversine")
     self.data["distance_matrix"] =  metric.pairwise(nodeCoorList)*6373
+
 
   def tuneDistanceMatrix(self):
     for node in self.network.nodes:
@@ -116,7 +118,8 @@ class DataModel:
     self.setDemands()
     #self.assignNames()
     self.calculateDistanceMatrix()
-    self.tuneDistanceMatrix()
+    
+    #self.tuneDistanceMatrix()
     #self.setPickupsAndDeliveries()
     #self.calculateTimeMatrix()
     #self.setTimingWindows()
@@ -186,17 +189,6 @@ class vrpWrap:
             self.time_dimension.CumulVar(self.routingManager.Start(i)))
       self.routingManager.AddVariableMinimizedByFinalizer(
             self.time_dimension.CumulVar(self.routingManager.End(i)))
-
-
-
-
-
-
-
-
-
-
-
 
 
 

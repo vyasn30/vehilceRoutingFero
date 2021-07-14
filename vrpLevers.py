@@ -84,14 +84,17 @@ class DataModel:
 
   def calculateDistanceMatrix(self):
     nodeCoorList =[[np.radians(node.coors.latitude), np.radians(node.coors.longitude)] for node in self.network.nodes]
-    print(nodeCoorList)
     metric = DistanceMetric.get_metric("haversine")
     self.data["distance_matrix"] =  metric.pairwise(nodeCoorList)*6373
 
-
+ 
   def tuneDistanceMatrix(self):
-    for node in self.network.nodes:
-      self.data["distance_matrix"] += (node.processingTime*self.network.avgSpeed)/60
+    for i in range(0, len(self.network.nodes)):
+      for j in range(0, len(self.network.nodes)):
+        if i == j:
+          continue
+        else:
+          self.data["distance_matrix"][i][j] += 5
 
   def setTimingWindows(self):
     windows =[node.timingWindow for node in  self.network.nodes]
@@ -100,9 +103,9 @@ class DataModel:
     self.data["time_windows"] = incrementalStamps(timeStamps, windows)        
 
 
-  def assignNames(self):
-    self.data["names"] = [node.coors.geoString for node in self.network.nodes]
-     
+  def assignNames(self, names):
+    self.data["names"] = names 
+
   def setDemands(self):
     for node in self.network.nodes:
       self.data["demands"].append(node.demand)
@@ -116,10 +119,9 @@ class DataModel:
   def getData(self):
     self.setVehicleCapacities()
     self.setDemands()
-    #self.assignNames()
     self.calculateDistanceMatrix()
     
-    #self.tuneDistanceMatrix()
+    self.tuneDistanceMatrix()
     #self.setPickupsAndDeliveries()
     #self.calculateTimeMatrix()
     #self.setTimingWindows()
@@ -295,7 +297,9 @@ class vrpWrap:
     self.solution = self.routingManager.SolveWithParameters(search_parameters)
 
     return self.solution
-  
+ 
+
+ 
 
   def print_solution(self):
     """Prints solution on console."""
@@ -375,6 +379,5 @@ if __name__ == '__main__':
   vrp = vrpWrap(DataModel(network).getData())
   solution = vrp.solve()
 
-  print(solution)
   print("Solution\n")
-  print(vrp.print_solution())
+  vrp.print_solution()

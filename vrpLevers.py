@@ -46,7 +46,7 @@ class Node:
     self.processingTime = processingTime
 
 class Network:
-  def __init__(self, depotNode = 0, numVehicles=1, nodes = None, vehicles = None, pickups_deliveries = None):
+  def __init__(self, depotNode = 0, numVehicles=1, nodes = None, vehicles = None, pickups_deliveries = None, avgSpeed=60):
     self.nodes = []
     self.depot = depotNode
     self.numVehicles = numVehicles
@@ -75,7 +75,7 @@ class DataModel:
     self.data["pickups_deliveries"] = []
     self.data["time_matrix"] = [] 
     self.data["time_windows"] = []
-
+    self.data["avgSpeed"] = self.network.avgSpeed
 
   def calculateTimeMatrix(self):
     geoStringList = [node.coors.geoString for node in self.network.nodes]
@@ -83,18 +83,24 @@ class DataModel:
    
 
   def calculateDistanceMatrix(self):
-    nodeCoorList =[[np.radians(node.coors.latitude), np.radians(node.coors.longitude)] for node in self.network.nodes]
-    metric = DistanceMetric.get_metric("haversine")
-    self.data["distance_matrix"] =  metric.pairwise(nodeCoorList)*6373
+    self.data["distance_matrix"] = np.load("distanceMatrix.npy")
 
- 
+
+
   def tuneDistanceMatrix(self):
+
     for i in range(0, len(self.network.nodes)):
       for j in range(0, len(self.network.nodes)):
         if i == j:
           continue
         else:
-          self.data["distance_matrix"][i][j] += 5
+          
+          extraDistance =  (self.network.nodes[j].processingTime*self.data["avgSpeed"])/60
+          before = self.data["distance_matrix"][i][j]
+          self.data["distance_matrix"][i][j] += extraDistance
+          after = self.data["distance_matrix"][i][j]
+
+
 
   def setTimingWindows(self):
     windows =[node.timingWindow for node in  self.network.nodes]

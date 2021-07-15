@@ -17,6 +17,9 @@ totalVehicles = [vrpLevers.Vehicle(driver["capacity_of_vehicle"], driver["max_ut
 coors = [vrpLevers.Coors(order["destination"]) for order in data["orders"]]
 coors.insert(0, vrpLevers.Coors(data["warehouse_location"]))
 
+for coor in coors:
+  print(coor.latitude, coor.longitude)
+
 names = [order["destination_address"] for order in data["orders"]]
 names.insert(0, "depot_node")
 
@@ -27,11 +30,8 @@ demands = [order["quantity"] for order in data["orders"]]
 demands.insert(0, 0)
 
 depotNode = 0
-
-network = vrpLevers.Network(depotNode, vehicleNumber, vehicles = totalVehicles)
-print(len(coors))
-print(len(demands))
-print(len(handoverTimes))
+avg_speed = data["avg_speed"]
+network = vrpLevers.Network(depotNode, vehicleNumber, vehicles = totalVehicles, avgSpeed = avg_speed)
 
 
 for i in range(0, len(coors)):
@@ -45,6 +45,7 @@ dataModel.assignNames(names)
 
 
 data = dataModel.getData()
+print(data["distance_matrix"])
 vrp = vrpLevers.vrpWrap(data)
 solution = vrp.solve()
 

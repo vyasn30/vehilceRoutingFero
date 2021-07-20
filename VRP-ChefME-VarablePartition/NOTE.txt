@@ -1,0 +1,41 @@
+For windows, using Postman, the following steps should be followed:
+
+1.) If using ubuntu shell, turn on the redis server service by following command:
+sudo service redis-server start
+
+2.) Start the celery workers with following command:
+celery -A VRP_server_celery.celery worker --loglevel=debug -f celery_worker_log
+
+3.) Turn on the celery sever with:
+python VRP_server_celery.py
+
+TO install osrm:
+
+sudo apt-get install libgdal-dev
+pip install GDAL==$(gdal-config --version | awk -F'[.]' '{print $1"."$2}')
+pip install osrm
+pip3 install --upgrade git+https://github.com/ustroetz/python-osrm.git 
+
+Important links: 
+
+https://hub.docker.com/r/osrm/osrm-backend/
+http://project-osrm.org/docs/v5.5.1/api/#responses
+https://github.com/ustroetz/python-osrm
+
+
+Commands to setup OSRM using docker:
+
+mkdir osrm
+cd osrm
+wget http://download.geofabrik.de/asia/gcc-states-latest.osm.pbf
+
+If using the default lua script:
+sudo docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-extract -p /opt/car.lua /data/gcc-states-latest.osm.pbf
+
+If using custom script with changed parameters(assuming file name as truck.lua;included in this branch):
+sudo docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-extract -p /data/truck.lua /data/gcc-states-latest.osm.pbf
+
+sudo docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-partition /data/gcc-states-latest.osrm
+sudo docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-customize /data/gcc-states-latest.osrm
+sudo docker run -d --restart unless-stopped --name osrm-demo -t -i -p 5000:5000 -v "${PWD}:/data" osrm/osrm-backend osrm-routed --algorithm mld /data/gcc-states-latest.osrm
+

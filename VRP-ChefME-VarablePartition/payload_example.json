@@ -1,0 +1,72 @@
+{
+    "avg_speed": 60,
+    "max_solver_time": 600,
+    "pickup_time": 0,
+    "warehouse_location": "23.025716,72.554297",
+    "warehouse_pickup_time": {
+        "start_time": 300,
+        "end_time": 800
+    },
+    "warehouse_drop_time": {
+        "start_time": 300,
+        "end_time": 800
+    },
+    "orders": [
+        {
+            "order_id": "DO00000055",
+            "source": "23.025716,72.554297",
+            "destination": "23.028614,72.506769",
+            "quantity": 20,
+            "order_type": "delivery",
+            "start_time": 420,
+            "end_time": 560,
+            "handover_time": 12,
+            "storage": "F"
+        },
+        {
+            "order_id": "DO00000056",
+            "destination": "22.977225,72.603538",
+            "source": "23.025716,72.554297",
+            "quantity": 40,
+            "order_type": "delivery",
+            "start_time": 600,
+            "end_time": 1200,
+            "handover_time": 25,
+            "storage": "C"
+        },
+        {
+            "order_id": "DO00000057",
+            "source": "23.025716,72.554297",
+            "destination": "22.985649,72.484991",
+            "quantity": 80,
+            "order_type": "delivery",
+            "start_time": 420,
+            "end_time": 640,
+            "handover_time": 8,
+            "storage": "D"
+        }
+    ],
+    "drivers": [
+        {
+            "duty_start_time": 420,
+            "duty_end_time": 480,
+            "capacity_of_vehicle": 100,
+            "max_utilized_capacity_of_vehicle": 1.0,
+            "storage": "FD"
+        },
+        {
+            "duty_start_time": 480,
+            "duty_end_time": 1200,
+            "capacity_of_vehicle": 100,
+            "max_utilized_capacity_of_vehicle": 1.0,
+            "storage": "FCD"
+        },
+        {
+            "duty_start_time":1200,
+            "duty_end_time": 1920,
+            "capacity_of_vehicle": 100,
+            "max_utilized_capacity_of_vehicle": 1.0,
+            "storage": "FCD"
+        }
+    ]
+}
